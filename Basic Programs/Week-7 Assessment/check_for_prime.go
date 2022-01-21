@@ -22,7 +22,7 @@ func CheckPrime(number int) {
 
 func main() {
 	var user_input int
-	fmt.Print("Enter a String to check if vowel is present or not:")
+	fmt.Print("Enter a String to check if it is prime a number or not:")
 	fmt.Scanf("%s\n", &user_input)
 	CheckPrime(user_input)
 }

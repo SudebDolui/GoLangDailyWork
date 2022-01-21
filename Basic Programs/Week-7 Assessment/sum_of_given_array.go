@@ -8,5 +8,5 @@ func main() {
 	for i := 0; i < len(array); i++ {
 		sum = sum + array[i]
 	}
-	fmt.Println(sum)
+	fmt.Println("Sum of the given array is", sum)
 }

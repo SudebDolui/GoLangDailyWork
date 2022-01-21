@@ -11,7 +11,7 @@ func factorial(x uint) uint {
 
 func main() {
 	var user_input uint
-	fmt.Print("Enter a String to check if vowel is present or not:")
+	fmt.Print("Enter a Number to know its Factorial:")
 	fmt.Scanf("%s\n", &user_input)
 	println(factorial(user_input))
 }
